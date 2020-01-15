@@ -22,7 +22,7 @@ I'll start with python-microscopy to get the ball rolling
 
 **Website:** http://www.python-microscopy.org  
 **Source:** https://github.com/python-microscopy/python-microscopy  
-**License:** GPLv3 (although some components may be able to be licensed more permisibely on request)  
+**License:** GPLv3 (although some components may be able to be licensed more permisibly on request)  
 **Scope/Description:** python-microscopy is a large package including a farily mature microscope control GUI as well as a lot of functionality for analysis and postprocessing of microscopy data, especially for single molecule localization experiments. The hardware drivers are found within the source tree in the PYME\Acquire\Hardware subdirectory.
 
 **Hardware Supported:**  
