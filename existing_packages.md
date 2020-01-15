@@ -7,7 +7,7 @@ Entries should follow the following template:
 ## package name
 
 **Website:** The url of the package website (if different from the source repository)  
-**Source:** The URL (e.g. on github) of the project source
+**Source:** The URL (e.g. on github) of the project source  
 **License:** The (hopefully open source) license used  
 **Scope/Description:** What the package tries to accomplish  
 
