@@ -56,8 +56,8 @@ I'll start with python-microscopy to get the ball rolling
 
 ## storm-control
 
-**Website:** https://github.com/ZhuangLab/storm-control
-**Source:** https://github.com/ZhuangLab/storm-control
+**Website:** https://github.com/ZhuangLab/storm-control  
+**Source:** https://github.com/ZhuangLab/storm-control  
 **License:** MIT  
-**Scope/Description:** storm-control was originally designed for acquiring single molecule localization microscopy data in a manual or semi-automated fashion. At a later point the ability to collect MERFISH data was added. The hardware drivers can all be found in the storm_control\sc_hardware directory.
-**Hardware Supported:** Please see [this](https://github.com/ZhuangLab/storm-control/tree/master/storm_control/sc_hardware) web-page.
+**Scope/Description:** storm-control was originally designed for acquiring single molecule localization microscopy data in a manual or semi-automated fashion. At a later point the ability to collect MERFISH data was added. The hardware drivers can all be found in the storm_control\sc_hardware directory.  
+**Hardware Supported:** Please see [this](https://github.com/ZhuangLab/storm-control/tree/master/storm_control/sc_hardware) web-page.  
