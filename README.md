@@ -1,7 +1,7 @@
 # Reducing duplicated effort when controlling microscope hardware with python
 
 There are a growing number of groups using python to control microscope hardware. To date, people have largely been
-operating in their own silos, leading to a large ammount of duplicated effort. We would like to minimize this going forwards,
+operating in their own silos, leading to a large amount of duplicated effort. We would like to minimize this going forwards,
 and to provide a way of co-ordinating efforts.
 
 This repository exists to facilitate an open discussion about a) what exactly we are trying to achieve and 
