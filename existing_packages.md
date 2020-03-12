@@ -61,3 +61,23 @@ I'll start with python-microscopy to get the ball rolling
 **License:** MIT  
 **Scope/Description:** storm-control was originally designed for acquiring single molecule localization microscopy data in a manual or semi-automated fashion. At a later point the ability to collect MERFISH data was added. The hardware drivers can all be found in the storm_control\sc_hardware directory.  
 **Hardware Supported:** Please see [this](https://github.com/ZhuangLab/storm-control/tree/master/storm_control/sc_hardware) web-page.  
+
+## ScopeFoundry
+
+**Website:** http://www.scopefoundry.org/
+**Source:** https://github.com/ScopeFoundry/
+**License:** BSD
+**Scope/Description:** ...
+**Hardware Supported:** ...
+
+
+## bluesky / Ophyd
+
+Part of the bluesky project designed at particle accelerators. Ophyd provides a hardware abstraction that is typically on top of distributed controls for accelerators, but can be used more generally.
+
+**Website:** https://blueskyproject.io/ophyd/
+**Source:** https://github.com/bluesky/ophyd
+**License:** BSD
+
+
+
