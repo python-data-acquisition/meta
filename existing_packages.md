@@ -64,11 +64,11 @@ I'll start with python-microscopy to get the ball rolling
 
 ## ScopeFoundry
 
-**Website:** http://www.scopefoundry.org/
-**Source:** https://github.com/ScopeFoundry/
-**License:** BSD
-**Scope/Description:** ...
-**Hardware Supported:** ...
+**Website:** http://www.scopefoundry.org/  
+**Source:** https://github.com/ScopeFoundry/  
+**License:** BSD  
+**Scope/Description:** ...  
+**Hardware Supported:** ...  
 
 
 ## bluesky / Ophyd
