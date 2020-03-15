@@ -75,9 +75,97 @@ I'll start with python-microscopy to get the ball rolling
 
 Part of the bluesky project designed at particle accelerators. Ophyd provides a hardware abstraction that is typically on top of distributed controls for accelerators, but can be used more generally.
 
-**Website:** https://blueskyproject.io/ophyd/
-**Source:** https://github.com/bluesky/ophyd
-**License:** BSD
+**Website:** https://blueskyproject.io/ophyd/  
+**Source:** https://github.com/bluesky/ophyd  
+**License:** BSD  
 
+## Instrumental
+**Website:** https://instrumental-lib.readthedocs.io/en/stable/index.html  
+**Source:** https://github.com/mabuchilab/Instrumental  
+**License:** GPL-3  
+**Scope/Description:** Python-based library for controlling lab hardware like cameras, DAQs, oscilloscopes, spectrometers, and more. It has high-level drivers for instruments from NI, Tektronix, Thorlabs, PCO, Photometrics, Burleigh, and others. 
 
+**Hardware Supported:**  
 
+**Cameras**  
+* PCO cameras via PCO SDK
+* PCO Pixelfly camera
+* Princeton Instr. camera via PICAM SDK
+* Photometrics cameras
+* TSI cameras
+* Thorlabs DCx cameras  
+
+**Lasers**  
+* Toptica FemtoFiber  
+
+**Motion**  
+* Attocube stages
+* Thorlabs APT controller
+* Thorlabs Flipper Filters
+* Thorlabs Kinesis devices
+* Thorlabs TDC001 T-Cube DC Servo Motor Controllers
+* Newmark rotation stages
+**DAQ**  
+* NI-DAQmx
+
+see other devices in [drivers](https://github.com/mabuchilab/Instrumental/tree/master/instrumental/drivers)
+
+## Qudi
+**Website:** https://ulm-iqo.github.io/qudi-generated-docs/html-docs/  
+**Source:** https://github.com/Ulm-IQO/qudi  
+**License:** GPL  
+**Scope/Description:** Qudi is a suite of tools for operating multi-instrument and multi-computer laboratory experiments. Originally built around a confocal fluorescence microscope experiments, it has grown to be a generally applicaple framework for controlling experiments.
+
+**Hardware Supported:**  
+
+**Cameras**  
+* Andor iXon 897 ultra camera
+* Thorlabs DCx camera
+* Thorlabs compact USB cameras (uc480)
+
+**Lasers**  
+* Coherent OBIS
+* LaserQuantum 
+* Spectra Physics Millennia 
+
+**Motion**  
+* Thorlabs APT controller
+* Newport CONEX-AGP controller for Agilis stages
+* PI stages (incl. Micos)
+* Zaber rotation stage
+
+**DAQ**  
+* NI-DAQmx pulse generators and counters (via PyDAQmx)
+* FPGA counters and pulse generators
+
+see other devices in [hardware](https://github.com/Ulm-IQO/qudi/tree/master/hardware)
+
+## Lantz
+**Website:** https://lantz.readthedocs.io/en/0.3/  
+**Source:** https://github.com/LabPy/lantz/tree/0.3  
+**License:** [BSD](https://github.com/LabPy/lantz/blob/master/LICENSE)  
+**Scope/Description:** Lantz is an automation and instrumentation toolkit. On-the-fly GUI for testing purposes.  
+
+**Hardware Supported:**  
+
+**Cameras**  
+* Andor, sCMOS and EM-CCD
+* PCO Sensicam
+
+**Lasers**  
+* Cobolt 06-01 Series
+* Coherent Innova 300 Series
+* VFL MPB Communications
+* RGB Lasersystems MiniLas Evo laser
+
+**Motion**  
+* Prior NanoScanZ
+* Sutter filter wheel
+
+**DAQ**  
+* NI-DAQmx
+
+**Microscope bodies**  
+* Olympus IX and BX
+
+other devices listed in [drivers](https://github.com/LabPy/lantz/tree/master/lantz/drivers)
