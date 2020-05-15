@@ -171,6 +171,26 @@ see other devices in [hardware](https://github.com/Ulm-IQO/qudi/tree/master/hard
 other devices listed in [drivers](https://github.com/LabPy/lantz/tree/master/lantz/drivers)
 
 
+## ACQ4
+
+**Website:** http://acq4.org
+
+**Source:** https://github.com/acq4/acq4
+
+**License:** MIT
+
+**Scope/Description:** Data acquisition platform focused on optical microscopy (cameras, stages, filters, laser scanning), electrophysiology (mostly patch-clamp), and laser photostimulation. Architecture includes device abstraction layer, acquisition engine, and coordinate system modeling.
+## yaq
+
+**Website:** https://yaq.fyi/  
+**Source:**  [Gitlab project](https://gitlab.com/yaq) [core python implementation](https://gitlab.com/yaq/yaqd-core-python)
+**License:** LGPLv3 (for the core) [some more info](https://yaq.fyi/licensing/)
+**Scope/Description:** 
+yaq provides a daemon based architecture for interacting with hardware (and services).
+yaq uses a [msgpack](msgpack.org) based [RPC](https://yeps.yaq.fyi/100) between daemons and clients running in separate processes.
+yaq uses a composition based approach to define common [traits](https://yaq.fyi/traits) to enforce API consistency
+**Hardware Supported:**  https://yaq.fyi/hardware/ (and actively growing)
+
 ## yaq
 
 **Website:** https://yaq.fyi/  
