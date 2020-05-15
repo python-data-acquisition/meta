@@ -169,3 +169,10 @@ see other devices in [hardware](https://github.com/Ulm-IQO/qudi/tree/master/hard
 * Olympus IX and BX
 
 other devices listed in [drivers](https://github.com/LabPy/lantz/tree/master/lantz/drivers)
+
+## ACQ4
+
+**Website:** http://acq4.org
+**Source:** https://github.com/acq4/acq4
+**License:** MIT
+**Scope/Description:** Data acquisition platform focused on optical microscopy (cameras, stages, filters, laser scanning), electrophysiology (mostly patch-clamp), and laser photostimulation. 
