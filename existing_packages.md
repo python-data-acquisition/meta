@@ -170,6 +170,7 @@ see other devices in [hardware](https://github.com/Ulm-IQO/qudi/tree/master/hard
 
 other devices listed in [drivers](https://github.com/LabPy/lantz/tree/master/lantz/drivers)
 
+
 ## ACQ4
 
 **Website:** http://acq4.org
@@ -181,6 +182,18 @@ other devices listed in [drivers](https://github.com/LabPy/lantz/tree/master/lan
 **Scope/Description:** Data acquisition platform focused on optical microscopy (cameras, stages, filters, laser scanning), electrophysiology (mostly patch-clamp), and laser photostimulation. Architecture includes device abstraction layer, acquisition engine, and coordinate system modeling.
 
 
+## yaq
+
+**Website:** https://yaq.fyi/  
+**Source:**  [Gitlab project](https://gitlab.com/yaq) [core python implementation](https://gitlab.com/yaq/yaqd-core-python)
+**License:** LGPLv3 (for the core) [some more info](https://yaq.fyi/licensing/)
+**Scope/Description:** 
+yaq provides a daemon based architecture for interacting with hardware (and services).
+yaq uses a [msgpack](msgpack.org) based [RPC](https://yeps.yaq.fyi/100) between daemons and clients running in separate processes.
+yaq uses a composition based approach to define common [traits](https://yaq.fyi/traits) to enforce API consistency
+**Hardware Supported:**  https://yaq.fyi/hardware/ (and actively growing)
+
+
 # pyacq
 
 **Source:** https://github.com/pyacq/pyacq
@@ -188,4 +201,3 @@ other devices listed in [drivers](https://github.com/LabPy/lantz/tree/master/lan
 **License:** BSD
 
 **Scope/Description:** Distributed hardware control, online analysis, and user interfaces. Hardware support mainly around neuroscience applications: electrode arrays, DAQ, camera, etc. Uses multiple processes with remote object proxying and a flexible data streaming architecture to allow scalable configuration (for example: record data from electrode array, atream to compute cluster for online analysis, and stream results to UI for visualization).
-
