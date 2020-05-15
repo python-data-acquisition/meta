@@ -179,3 +179,13 @@ other devices listed in [drivers](https://github.com/LabPy/lantz/tree/master/lan
 **License:** MIT
 
 **Scope/Description:** Data acquisition platform focused on optical microscopy (cameras, stages, filters, laser scanning), electrophysiology (mostly patch-clamp), and laser photostimulation. Architecture includes device abstraction layer, acquisition engine, and coordinate system modeling.
+
+
+# pyacq
+
+**Source:** https://github.com/pyacq/pyacq
+
+**License:** BSD
+
+**Scope/Description:** Distributed hardware control, online analysis, and user interfaces. Hardware support mainly around neuroscience applications: electrode arrays, DAQ, camera, etc. Uses multiple processes with remote object proxying and a flexible data streaming architecture to allow scalable configuration (for example: record data from electrode array, atream to compute cluster for online analysis, and stream results to UI for visualization).
+
