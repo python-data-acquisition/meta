@@ -204,4 +204,4 @@ yaq uses a composition based approach to define common [traits](https://yaq.fyi/
 
 **License:** BSD
 
-**Scope/Description:** Distributed hardware control, online analysis, and user interfaces. Hardware support mainly around neuroscience applications: electrode arrays, DAQ, camera, etc. Uses multiple processes with remote object proxying and a flexible data streaming architecture to allow scalable configuration (for example: record data from electrode array, atream to compute cluster for online analysis, and stream results to UI for visualization).
+**Scope/Description:** Distributed hardware control, online analysis, and user interfaces. Hardware support mainly around neuroscience applications: electrode arrays, DAQ, camera, etc. Uses multiple processes with remote object proxying and a flexible data streaming architecture to allow scalable configuration (for example: record data from electrode array, stream to compute cluster for online analysis, and stream results to UI for visualization).
