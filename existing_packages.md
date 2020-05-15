@@ -173,6 +173,9 @@ other devices listed in [drivers](https://github.com/LabPy/lantz/tree/master/lan
 ## ACQ4
 
 **Website:** http://acq4.org
+
 **Source:** https://github.com/acq4/acq4
+
 **License:** MIT
-**Scope/Description:** Data acquisition platform focused on optical microscopy (cameras, stages, filters, laser scanning), electrophysiology (mostly patch-clamp), and laser photostimulation. 
+
+**Scope/Description:** Data acquisition platform focused on optical microscopy (cameras, stages, filters, laser scanning), electrophysiology (mostly patch-clamp), and laser photostimulation. Architecture includes device abstraction layer, acquisition engine, and coordinate system modeling.
