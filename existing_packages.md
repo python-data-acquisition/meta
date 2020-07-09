@@ -192,7 +192,7 @@ other devices listed in [drivers](https://github.com/LabPy/lantz/tree/master/lan
 
 **Scope/Description:** 
 yaq provides a daemon based architecture for interacting with hardware (and services).
-yaq uses a [msgpack](msgpack.org) based [RPC](https://yeps.yaq.fyi/100) between daemons and clients running in separate processes.
+yaq uses a [Apache Avro](https://avro.apache.org) based [RPC](https://yeps.yaq.fyi/107) between daemons and clients running in separate processes.
 yaq uses a composition based approach to define common [traits](https://yaq.fyi/traits) to enforce API consistency
 
 **Hardware Supported:**  https://yaq.fyi/hardware/ (and actively growing)
